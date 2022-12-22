@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <title>PortFolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2" id="navbar">
+            <a class="navbar-brand" href="#">PortFolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-item nav-link active" href="#">Sobre
+                        Mí<!-- <span class="sr-only">(current)</span> --></a>
+                    <a class="nav-item nav-link" href="#contact">Contacto</a>
+                    <a class="nav-item nav-link" href="#tableDesign">Proyectos</a>
+<!--                     <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="profile">
+            <img src="imgs/universe.png" alt="Banner" id="bannerDesing">
+            <img src="imgs/avatar.png" alt="Avatar" id="avatarDesign">
+            <h1>Facundo Rodríguez</h1>
+            <h2 class="text-muted">Estudiante</h2>
+            <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quod porro eveniet
+                iusto repellendus, amet
+                quibusdam blanditiis vitae quaerat, nihil ullam ipsum eaque omnis ut quasi corporis alias sequi modi.
+            </p>
+            <article class="row justify-content-center">
+                <div class="card bg-dark" style="width: 18rem; margin: 1em;">
+                    <img src="imgs/html.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Empecé hace N años, y sé un N%</p>
+                    </div>
+                </div>
+
+                <div class="card bg-dark" style="width: 18rem; margin: 1em;">
+                    <img src="imgs/css.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Empecé hace N años, y sé un N%</p>
+                    </div>
+                </div>
+
+                <div class="card bg-dark" style="width: 18rem; margin: 1em;">
+                    <img src="imgs/javascript.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Empecé hace N años, y sé un N%</p>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <table class="table" id="tableDesign">
+                    <thead>
+                        <tr>
+                            <th>Proyecto</th>
+                            <th>Lenguajes Utilizados</th>
+                            <th>Horas dedicadas </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="item">Calculadora</th>
+                            <th class="item">HTML, CSS, JS</th>
+                            <th class="item">24</th>
+                        </tr>
+
+                        <tr>
+                            <th class="item">E-Shop</th>
+                            <th class="item">HTML, CSS</th>
+                            <th class="item">9</th>
+                        </tr>
+
+                        <tr>
+                            <th class="item">Secretaria</th>
+                            <th class="item">HTML, JS</th>
+                            <th class="item">10</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+    </section>
+    <footer id="contact">
+        <div>
+            <p id="socialNet">Redes Sociales</p>
+            <a href="https://www.instagram.com/yvngcoffee"><img src="imgs/instagram.png" alt="instagram"
+                    id="imgInstagram" class="col-1"></a>
+            <a href="https://www.instagram.com/yvngcoffee"><img src="imgs/instagram.png" alt="instagram" id="imgTwitter"
+                    class="col-1"></a>
+            <a href="https://www.instagram.com/yvngcoffee"><img src="imgs/instagram.png" alt="instagram"
+                    id="imgFacebook" class="col-1"></a>
+        </div>
+        <form id="formCenter" class="col-8">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

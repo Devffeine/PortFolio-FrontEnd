@@ -1,0 +1,89 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+#navbar {
+    position:fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+a {
+    color: #fff;
+}
+
+body {
+    background-color: #191919;
+}
+
+#profile {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+#bannerDesing {
+    position: relative;
+    display: block;
+    border: .2em solid #000;
+    border-radius: 1em;
+    width: 100%;
+    max-height: 50vh;
+}
+
+#avatarDesign {
+    position: relative;
+    border: .2em solid #000;
+    border-radius: 15em;
+    width: 7em;
+    bottom: 3.5em;
+} 
+
+h1 {
+    font-size: 1.5em;
+    position: relative;
+    bottom: 2em;
+}
+
+h2 {
+    font-size: 1.3em;
+    position: relative;
+    bottom: 2em;
+}
+
+#description {
+    font-size: .7em;
+    position: relative;
+    bottom: 2em;
+}
+
+#tableDesign {
+    margin: 5em 0;
+}
+
+.item {
+    font-size: .7em;
+}
+
+
+#contact {
+    background-color: rgb(0, 0, 100, 0.04);
+    text-align: center;
+}
+
+#socialNet {
+    margin: .2em;
+    padding: .2em;
+}
+
+#imgInstagram, #imgTwitter, #imgFacebook {
+    width: 2em;
+    height: auto; 
+    margin-bottom: 1em; 
+}
+
+#formCenter {
+    width: 75%;
+    margin: 0 auto;
+}
